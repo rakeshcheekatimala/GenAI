@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="f4479e36-2bad-4a60-8346-672b58f5fa13" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../AI Agents/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AI Agents/Readme.md" afterDir="false" />
+    <list default="true" id="05e57171-43c5-4142-83b8-573962247dd0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Exercises/interviewtipsgenerator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AI Agents/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../AI Agents/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 8
-}</component>
-  <component name="ProjectId" id="31w2u5ZRf1vghQOXsTL2yblSqNF" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0
+}]]></component>
+  <component name="ProjectId" id="3265fxAiqAq0KXw1zX3RbENqF8t" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,8 +32,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/rakeshcheekatimala/Desktop/Learnings/GenAI/Langchain/Exercises",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+    "last_opened_file_path": "/Users/rakeshcheekatimala/Desktop/Learnings/GenAI/Langchain"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -42,11 +45,11 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f4479e36-2bad-4a60-8346-672b58f5fa13" name="Changes" comment="" />
-      <created>1756421033598</created>
+      <changelist id="05e57171-43c5-4142-83b8-573962247dd0" name="Changes" comment="" />
+      <created>1756728288971</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1756421033598</updated>
+      <updated>1756728288971</updated>
     </task>
     <servers />
   </component>

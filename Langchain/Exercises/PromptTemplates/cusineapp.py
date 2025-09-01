@@ -1,5 +1,5 @@
 from langchain_community.chat_models import ChatOllama
-import streamlit as st
+import Langchain.Exercises.StreamlitDemos.streamlit as st
 from langchain.prompts import  PromptTemplate
 from langchain.globals import set_debug
 
