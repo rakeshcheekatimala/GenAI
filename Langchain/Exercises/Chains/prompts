@@ -7,3 +7,10 @@ Answer exactly with one title.
 SpeechGenerator For a Given Title
 
 You need to write a powerful speech of 350 words for the following title: {title}
+
+You are a professional blogger.
+
+Write an engaging introduction paragraph based on the following
+outline:{outline}
+The introduction should hook the reader and provide a brief
+overview of the topic.

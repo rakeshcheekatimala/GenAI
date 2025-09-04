@@ -25,9 +25,9 @@ title_prompt_template = PromptTemplate(
 )
 
 speech_prompt_template = PromptTemplate(
-    input_variables=["title","emotion"],
+    input_variables=["title"],
     template=""" 
-       You need to write a powerful {emotion} speech of 350 words for the following title: {title}
+       You need to write a powerful speech of 350 words for the following title: {title}
     """
 )
 
@@ -35,13 +35,12 @@ llm = ChatOpenAI(model="gpt-4o", api_key=OPEN_API_KEY)
 
 first_chain = title_prompt_template | llm | StrOutputParser() | (lambda title: (st.write(title), title)[1])
 second_chain = speech_prompt_template | llm
-final_chain = first_chain | (lambda title: {"title": title, "emotion": emotion}) | second_chain
+final_chain = first_chain | second_chain
 
 # UI for Chat
 st.title("Speech Generator")
 topic = st.text_input("Enter your topic:")
-emotion = st.text_input("Enter your emotion:")
 
-if topic and emotion:
+if topic:
     response = final_chain.invoke({"topic": topic})
     st.write(response.content)
