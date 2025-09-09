@@ -1,5 +1,5 @@
 from langchain_community.chat_models import ChatOllama
-import Langchain.Exercises.StreamlitDemos.streamlit as st
+import streamlit as st
 from langchain.globals import set_debug
 
 # To add Debugging
