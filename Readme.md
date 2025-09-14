@@ -1,3 +1,48 @@
+# What is Langchain?
+LangChain is a framework for developing applications powered by large language models (LLMs).
+
+
+The LangChain framework consists of multiple open-source libraries. Read more in the Architecture page.
+
+- langchain-core: Base abstractions for chat models and other components.
+- Integration packages (e.g. langchain-openai, langchain-anthropic, etc.): Important integrations have been split into lightweight packages that are co-maintained by the LangChain team and the integration developers.
+
+```
+from langchain_openai import ChatOpenAI
+
+```
+
+This is used for for creating an instance of ChatModel where you can define model name which you are interested to create.
+
+Example
+
+```py 
+# Load Env
+load_dotenv()
+
+# Read the API KEY
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+llm = ChatOpenAI(model="gpt-4o", api_key=OPENAI_API_KEY)
+
+```
+
+- langchain: Chains, agents, and retrieval strategies that make up an application's cognitive architecture.
+- langchain-community: Third-party integrations that are community maintained.
+
+```
+from langchain_community.agent_toolkits.load_tools import load_tools
+tools = load_tools(["wikipedia", "ddg-search"])
+```
+
+Here above wikipedia, ddg-search are tools which will be used by LLM once the reasoning & action needs to be executed for a given task using these tools.
+
+# What is tools
+
+- Refer to Agents folder readme.md
+
+- langgraph: Orchestration framework for combining LangChain components into production-ready applications with persistence, streaming, and other key features. See LangGraph documentation.
+
+
 # Langchain Demos
 
 This repository contains various demos showcasing Langchain integration.
@@ -14,6 +59,7 @@ Under this folder Langchain, goto Agents to understand what is Agent, how to bui
 - Langchain
 - Ollama Installation [Installation](https://ollama.com/download)
 - OPEN_API_KEY (Ensure you have topped up some credits to run the application)
+
 
 ### Installation of Required packages 
 
