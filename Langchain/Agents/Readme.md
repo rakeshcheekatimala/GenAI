@@ -66,3 +66,10 @@ Limitations of Agents
 - Tool Coverage: If a needed tool isn’t available, the agent can’t perform that action.
 - Cost & Latency: LLMs can be expensive and sometimes slow, especially for complex tasks.
 - Reasoning Boundaries: Agents may not always reason perfectly or understand ambiguous instructions.
+
+
+Note: Make sure to add this if you are planning your agent on streamlit
+
+```
+langchain_core==0.2.3
+```
