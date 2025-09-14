@@ -52,6 +52,10 @@ This repository contains various demos showcasing Langchain integration.
 Under this folder Langchain, goto Agents to understand what is Agent, how to build & run it.
 
 
+# Streamlit 
+
+Under this folder Langchain, goto Streamlit to understand what is streamlit, why we need, how to run the app built using streamlit.
+
 ### Prerequisites
 
 - Python 3.x
