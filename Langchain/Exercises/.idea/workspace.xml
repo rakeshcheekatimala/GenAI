@@ -6,11 +6,19 @@
   <component name="ChangeListManager">
     <list default="true" id="f4479e36-2bad-4a60-8346-672b58f5fa13" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/../../AI Agents/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../AI Agents/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -26,12 +34,32 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.chat.executor": "Run",
+    "Python.embedding_demo.executor": "Run",
+    "Python.embeddings_ollama_demo.executor": "Run",
+    "Python.rag.executor": "Run",
+    "Python.similarityfinder.executor": "Run",
+    "Python.similarityfinderwithembeddings.executor": "Run",
+    "Python.text.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/rakeshcheekatimala/Desktop/Learnings/GenAI/Langchain/Exercises",
+    "last_opened_file_path": "/Users/rakeshcheekatimala/Desktop/Learnings/GenAI/Langchain/Exercises/RAG/ollama_rag_demo",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RAG/ollama_rag_demo" />
+      <recent name="$PROJECT_DIR$/RAG/rag_with_pdf_loaders" />
+      <recent name="$PROJECT_DIR$/RAG" />
+      <recent name="$PROJECT_DIR$/Embeddings" />
+      <recent name="$PROJECT_DIR$/ChatPromptTemplates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/RAG" />
+      <recent name="$PROJECT_DIR$/VectorStore" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -49,5 +77,10 @@
       <updated>1756421033598</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
   </component>
 </project>
