@@ -1,61 +1,59 @@
-# Vectors 
+# Langchain Demos
 
-Process of converting queries or documents (which are text based) into mathematical numbers to do a similary search
+This repository contains various demos showcasing Langchain integration.
 
-# Similarity
+# Agents 
 
-The relevance of the document is determined by the similarity between their vectors often measured by consine similarity.
-
-
-# How it Works
-
-The documents are converted into vectors and query is converted into vectors then similarity search is applied to find relevant document.
+Under this folder Langchain, goto Agents to understand what is Agent, how to build & run it.
 
 
-# RAG Architecture
+### Prerequisites
 
-![RAG Architecture](RAG/images/RAGArchitecture.png)
+- Python 3.x
+- Streamlit
+- Langchain
+- Ollama Installation [Installation](https://ollama.com/download)
+- OPEN_API_KEY (Ensure you have topped up some credits to run the application)
 
-## Input Query
+### Installation of Required packages 
 
-The input query is the user questions. 
+1. Install the required packages:
 
-## Retriever 
+```bash
+pip install streamlit langchain-community
+```
 
-It uses similarity search or vector based search to find the relevant documents. 
-
-##  Retrieved Documents 
-
-These are the documents identified after the search is done. 
-
-## Generator 
-
-It takes the input query & retreived documents to generate most relevant information.
-
-## Output 
-
-This is the final response after all the steps are done in RAG.
-
-#LLM 
-
-Large Language Model is a model that has been trained huge data set which has the capabilites understanding patterns, context and structure to predict the next word in the sequence. 
-
-# Transformers 
-
-[Transformers](https://aws.amazon.com/what-is/transformers-in-artificial-intelligence/)
-
-# Tools 
-
-Tools are special functions that an LLM can call when its intent matches a specific action.
-
-- It may be internal or external functions, often from a library, and are used to perform actions based on the input provided. 
-- By leveraging tools, the agent can extend its capabilities beyond reasoning and interact with external systems or perform complex operations as needed.
+2. How to verify if you have any ollama models installed 
 
 ```
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-llm=ChatOpenAI(model="gpt-4o", api_key=OPENAI_API_KEY)
+ollama list
 
-# Pull these below prompt from the hub.
-prompt = hub.pull("hwchase17/react")
-tools = load_tools(["wikipedia", "ddg-search"], llm=llm)  
+```
+I have below models installed 
+```
+
+NAME                       ID              SIZE      MODIFIED
+nomic-embed-text:latest    0a109f422b47    274 MB    4 days ago
+llama2:latest              78e26419b446    3.8 GB    10 days ago
+gemma:2b                   b50d6c999e59    1.7 GB    3 months ago
+llama3.2:1b                baf6a787fdff    1.3 GB    4 months ago
+llama3:latest              365c0bd3c000    4.7 GB    4 months ago
+mistral:latest             f974a74358d6    4.1 GB    9 months ago
+
+```
+
+# How to Install any opensource model
+
+```bash
+# Install Ollama from https://ollama.ai/
+# Then pull the Mistral model
+ollama pull mistral
+```
+
+### Running the Application built using streamlit
+
+To run the Streamlit application:
+
+```bash
+streamlit run programname.py
 ```
