@@ -43,3 +43,19 @@ Large Language Model is a model that has been trained huge data set which has th
 # Transformers 
 
 [Transformers](https://aws.amazon.com/what-is/transformers-in-artificial-intelligence/)
+
+# Tools 
+
+Tools are special functions that an LLM can call when its intent matches a specific action.
+
+- It may be internal or external functions, often from a library, and are used to perform actions based on the input provided. 
+- By leveraging tools, the agent can extend its capabilities beyond reasoning and interact with external systems or perform complex operations as needed.
+
+```
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+llm=ChatOpenAI(model="gpt-4o", api_key=OPENAI_API_KEY)
+
+# Pull these below prompt from the hub.
+prompt = hub.pull("hwchase17/react")
+tools = load_tools(["wikipedia", "ddg-search"], llm=llm)  
+```
